@@ -1,5 +1,3 @@
-package EncapsulationEXERCISES.AnimalFarm;
-
 public class Chicken {
 
     private String name;

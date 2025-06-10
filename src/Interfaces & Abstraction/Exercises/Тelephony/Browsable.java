@@ -1,4 +1,4 @@
-package InterfacesAndAbstractionEXERCISES.Тelephony;
+
 
 public interface Browsable {
 
