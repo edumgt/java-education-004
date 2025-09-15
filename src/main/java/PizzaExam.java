@@ -1,8 +1,8 @@
-package EncapsulationEXERCISES.PizzaCalories;
+
 
 import java.util.Scanner;
 
-public class Main {
+public class PizzaExam {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
