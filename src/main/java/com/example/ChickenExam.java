@@ -1,3 +1,4 @@
+package com.example;
 import java.util.Scanner;
 
 public class ChickenExam {
@@ -11,7 +12,9 @@ public class ChickenExam {
 
             try {
                 Chicken chicken = new Chicken(name, age);
-                System.out.println(chicken);
+
+                chicken.calculateProductPerDay("test");
+                System.out.println(" chicken.RESULT " + chicken.RESULT);
             } catch (IllegalArgumentException e) {
                 System.out.println(e.getMessage());
             }
