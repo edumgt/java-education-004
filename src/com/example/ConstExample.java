@@ -1,3 +1,4 @@
+package com.example;
 class MathUtil {
     // 수학 관련 상수
     final static public 

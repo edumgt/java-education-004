@@ -1,3 +1,4 @@
+package com.example;
 class Student {
     String name;             // 인스턴스 변수
     final static String school = "동대문고"; // 정적 변수

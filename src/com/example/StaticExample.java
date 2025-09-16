@@ -1,3 +1,4 @@
+package com.example;
 class Counter {
     // 모든 인스턴스가 공유하는 정적 변수
     static int count = 0;
