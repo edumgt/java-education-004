@@ -1,4 +1,5 @@
 package com.example;
+
 import java.util.Scanner;
 
 public class BoxExam {
@@ -12,16 +13,15 @@ public class BoxExam {
         try {
             Box box = new Box(length, width, height);
 
-            Box box1 = new Box(length, width, height);
-            // System.out.println("입력한 박스 정보:");
-            // System.out.println(box.toString());
-            // System.out.println(box.getClass().getPackageName());
+            System.out.println("입력한 박스 정보:");
+            System.out.println(box.toString());
+            System.out.println(box.getClass().getPackageName());
 
-
+            Box box1 = new Box();
             System.out.println(" box1.getHeight() -- " + box1.getHeight());
 
         } catch (IllegalArgumentException e) {
-            System.out.println("⚠ 오류: " + e.getMessage());
+            System.out.println("오류: " + e.getMessage());
         }
 
         scanner.close();
@@ -36,7 +36,7 @@ public class BoxExam {
             try {
                 return Double.parseDouble(input);
             } catch (NumberFormatException e) {
-                System.out.println("❌ 숫자를 입력해야 합니다. 다시 시도해주세요.");
+                System.out.println("오류 - 숫자를 입력해야 합니다. 다시 시도해주세요." + e.getMessage());
             }
         }
     }

@@ -6,7 +6,7 @@ public class Box {
 
     private double width;
 
-    private double height;
+    private double height = 50;
 
     public double getLength() {
         return length;
@@ -38,6 +38,10 @@ public class Box {
         setHeight(height);
     }
 
+    public Box() {
+
+    }
+
     private void setLength(double length) {
         sideValidation(length, "Length");
         this.length = length;
@@ -54,7 +58,7 @@ public class Box {
     }
 
     private void sideValidation(double side, String sideName) {
-        if (side <= 0) {
+        if (side <= 5) {
             throw new IllegalArgumentException(sideName + " cannot be zero or negative.");
         }
     }
