@@ -1,6 +1,9 @@
 class MathUtil {
     // 수학 관련 상수
-    public static final double PI = 3.141592653589793;
+    final static public 
+    double PI = 3.141592653589793;
+    
+    
     public static final double E = 2.718281828459045;
 
     // 물리 상수
@@ -16,7 +19,7 @@ class MathUtil {
 public class ConstExample {
     public static void main(String[] args) {
         // 원의 넓이 계산
-        double radius = 5.0;
+        double radius = 20;
         double area = MathUtil.PI * radius * radius;
         System.out.println("반지름 5의 원 넓이 = " + area);
 
