@@ -1,4 +1,4 @@
-
+package com.example;
 
 public class Box {
 
@@ -7,6 +7,30 @@ public class Box {
     private double width;
 
     private double height;
+
+    public double getLength() {
+        return length;
+    }
+
+    public void setLength(double length, String test) {
+        this.length = length;
+    }
+
+    public double getWidth() {
+        return width;
+    }
+
+    public void setWidth(double width, String test) {
+        this.width = width;
+    }
+
+    public double getHeight() {
+        return height;
+    }
+
+    public void setHeight(double height, String test) {
+        this.height = height;
+    }
 
     public Box(double length, double width, double height) {
         setLength(length);
@@ -50,8 +74,9 @@ public class Box {
 
     @Override
     public String toString() {
-        return String.format("Surface Area - %.2f%nLateral Surface Area - %.2f%nVolume - %.2f", this.calculateSurfaceArea(), this.calculateLateralSurfaceArea(), this.calculateVolume());
+        return String.format("Surface Area - %.2f%nLateral Surface Area - %.2f%nVolume - %.2f",
+                this.calculateSurfaceArea(), this.calculateLateralSurfaceArea(),
+                this.calculateVolume());
     }
-
 
 }
