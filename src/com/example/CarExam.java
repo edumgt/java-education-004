@@ -1,6 +1,7 @@
 package com.example;
 
-import com.hyundai.*;
+import com.example.*;
+import com.hyundai.namyang.*;
 
 public class CarExam {
     public static void main(String[] args) {

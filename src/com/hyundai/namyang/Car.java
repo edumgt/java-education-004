@@ -1,4 +1,4 @@
-package com.hyundai;
+package com.hyundai.namyang;
 
 public class Car {
     public final String brand = "Hyundai"; // 어디서든 접근 가능
