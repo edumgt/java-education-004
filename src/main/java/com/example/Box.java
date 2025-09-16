@@ -2,16 +2,16 @@ package com.example;
 
 public class Box {
 
-    private double length;
+    public double LENGTH;
 
     private double width;
 
     private double height = 50;
 
+    private double length;
     public double getLength() {
         return length;
     }
-
     public void setLength(double length, String test) {
         this.length = length;
     }

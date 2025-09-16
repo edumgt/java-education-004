@@ -18,6 +18,9 @@ public class BoxExam {
             System.out.println(box.getClass().getPackageName());
 
             Box box1 = new Box();
+            box1.LENGTH = 45.0;
+
+            System.out.println(" box1.LENGTH -- " + box1.LENGTH);
             System.out.println(" box1.getHeight() -- " + box1.getHeight());
 
         } catch (IllegalArgumentException e) {
